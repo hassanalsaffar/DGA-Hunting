@@ -1,6 +1,7 @@
 # Shannon Entropy Calculator
 import math
-from sets import Set
+
+#Input
 url = raw_input("URL: ")
 url = list(url) #seperate each char
 alphabet = list(Set(url)) # list of symbols in the string
@@ -19,4 +20,6 @@ ent = 0.0
 for freq in freqList:
     ent = ent + freq * math.log(freq, 2)
 ent = -ent
+
+#Output
 print 'Shannon entropy: %s' % ent
