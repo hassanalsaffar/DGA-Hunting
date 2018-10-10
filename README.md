@@ -2,6 +2,8 @@
 What's Shannon Entropy? 
 "... a measure of uncertainty in a random variable"
 
+![alt text](http://www.bearcave.com/misl/misl_tech/wavelets/compression/shannon2.jpg)
+
 How does it help finding malware ana anomalous activity?
 The more random a string is, the higher its calculation of randomness. For example:
 
