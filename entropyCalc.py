@@ -4,7 +4,7 @@ import math
 #Input
 url = raw_input("URL: ")
 url = list(url) #seperate each char
-alphabet = list(set(url)) # list of symbols in the string
+alphabet = list(set(url)) 
 
 # calculate the frequency of each symbol in the string
 freqList = []
