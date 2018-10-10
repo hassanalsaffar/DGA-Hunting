@@ -19,7 +19,6 @@ for symbol in alphabet:
 ent = 0.0
 for freq in freqList:
     ent = ent + freq * math.log(freq, 2)
-ent = -ent
 
 #Output
-print 'Shannon entropy: %s' % ent
+print 'Shannon entropy: %s' % -ent
